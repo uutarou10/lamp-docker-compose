@@ -17,7 +17,7 @@ It's all!
 
 To show `src` dir, access to http://localhost.
 
-And to show (phpMyAdmin)[https://www.phpmyadmin.net/], access to http://localhost:8080.
+And to show [phpMyAdmin](https://www.phpmyadmin.net/), access to http://localhost:8080.
 
 ### stop
 ```
