@@ -15,7 +15,7 @@ $ docker-compose up -d
 
 It's all!
 
-To show `src` dir, access to http://localhost.
+To show `src` dir (It's your document root!), access to http://localhost.
 
 And to show [phpMyAdmin](https://www.phpmyadmin.net/), access to http://localhost:8080.
 
@@ -28,3 +28,6 @@ $ docker-compose stop
 ```
 $ docker-compose exec mysql mysql -u root -ppassword
 ```
+
+### reset MySQL data
+Delete `./mysql` dir to initialize db.
