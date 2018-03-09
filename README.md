@@ -26,5 +26,5 @@ $ docker-compose stop
 
 ### use MySQL terminal
 ```
-$ docker-compose exec mysql mysql -u root -p password
+$ docker-compose exec mysql mysql -u root -ppassword
 ```
