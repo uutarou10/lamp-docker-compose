@@ -24,7 +24,16 @@ And to show [phpMyAdmin](https://www.phpmyadmin.net/), access to http://localhos
 $ docker-compose stop
 ```
 
-### use MySQL terminal
+### connect to MySQL
+Use your favorite tool for connect to mysql with below information.
+
+- Host: `localhost`
+- Port: `3306`
+- UserName: `root`
+- Password: `password`
+
+or use below command
+
 ```
 $ docker-compose exec mysql mysql -u root -ppassword
 ```
